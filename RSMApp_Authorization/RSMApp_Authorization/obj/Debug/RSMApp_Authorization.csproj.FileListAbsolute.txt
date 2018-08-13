@@ -1,0 +1,17 @@
+D:\NEW RSM Projects\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_Authorization.dll
+D:\NEW RSM Projects\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_Authorization.pdb
+D:\NEW RSM Projects\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_Connection.dll
+D:\NEW RSM Projects\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_ErrorResult.dll
+D:\NEW RSM Projects\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_Connection.pdb
+D:\NEW RSM Projects\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_ErrorResult.pdb
+D:\NEW RSM Projects\RSMApp_Authorization\RSMApp_Authorization\obj\Debug\ResolveAssemblyReference.cache
+D:\NEW RSM Projects\RSMApp_Authorization\RSMApp_Authorization\obj\Debug\RSMApp_Authorization.dll
+D:\NEW RSM Projects\RSMApp_Authorization\RSMApp_Authorization\obj\Debug\RSMApp_Authorization.pdb
+C:\Documents and Settings\Administrator\Desktop\RSMApp_Authorization\RSMApp_Authorization\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_Authorization.dll
+C:\Documents and Settings\Administrator\Desktop\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_Authorization.pdb
+C:\Documents and Settings\Administrator\Desktop\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_Connection.dll
+C:\Documents and Settings\Administrator\Desktop\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_ErrorResult.dll
+C:\Documents and Settings\Administrator\Desktop\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\System.Web.Extensions.dll
+C:\Documents and Settings\Administrator\Desktop\RSMApp_Authorization\RSMApp_Authorization\obj\Debug\RSMApp_Authorization.dll
+C:\Documents and Settings\Administrator\Desktop\RSMApp_Authorization\RSMApp_Authorization\obj\Debug\RSMApp_Authorization.pdb

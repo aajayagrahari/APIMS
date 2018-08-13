@@ -1,0 +1,5 @@
+D:\NEW RSM Projects\RSMApp_ErrorResult\RSMApp_ErrorResult\bin\Debug\RSMApp_ErrorResult.dll
+D:\NEW RSM Projects\RSMApp_ErrorResult\RSMApp_ErrorResult\bin\Debug\RSMApp_ErrorResult.pdb
+D:\NEW RSM Projects\RSMApp_ErrorResult\RSMApp_ErrorResult\obj\Debug\ResolveAssemblyReference.cache
+D:\NEW RSM Projects\RSMApp_ErrorResult\RSMApp_ErrorResult\obj\Debug\RSMApp_ErrorResult.dll
+D:\NEW RSM Projects\RSMApp_ErrorResult\RSMApp_ErrorResult\obj\Debug\RSMApp_ErrorResult.pdb

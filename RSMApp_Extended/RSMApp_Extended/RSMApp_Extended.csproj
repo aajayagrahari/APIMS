@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07C1BA84-C302-422F-ADB6-8393BD6166CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSMApp_Extended</RootNamespace>
+    <AssemblyName>RSMApp_Extended</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RSMApp_Authorization">
+      <HintPath>..\..\RSMApp_Authorization\RSMApp_Authorization\bin\Debug\RSMApp_Authorization.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_Comman, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApp_Comman\RSMApp_Comman\bin\Debug\RSMApp_Comman.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_Connection">
+      <HintPath>..\..\RSMApp_Connection\RSMApp_Connection\bin\Debug\RSMApp_Connection.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_FI">
+      <HintPath>..\..\RSMApp_FI\RSMApp_FI\bin\Debug\RSMApp_FI.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_MM, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_Organization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Organization.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_Partner, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApp_Partner\RSMApp_Partner\bin\Debug\RSMApp_Partner.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_SAP">
+      <HintPath>..\..\RSMApp_SAP\RSMApp_SAP\bin\Debug\RSMApp_SAP.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_SD, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApp_SD\RSMApp_SD\bin\Debug\RSMApp_SD.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Web.Design">
+      <HintPath>..\..\RSMApp_FI\RSMApp_FI\bin\Debug\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\RSMApp_FI\RSMApp_FI\bin\Debug\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authorization\AuthJobRoleMasterManagerExt.cs" />
+    <Compile Include="Authorization\AuthOrgRoleMasterManagerExt.cs" />
+    <Compile Include="Authorization\ProfileManagerExt.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Comman\BillingRelevantManagerExt.cs" />
+    <Compile Include="Comman\BusinessAreaManagerExt.cs" />
+    <Compile Include="Comman\CalculationTypeMasterManagerExt.cs" />
+    <Compile Include="Comman\ChartOfAccountManagerExt.cs" />
+    <Compile Include="Comman\ClientManagerExt.cs" />
+    <Compile Include="Comman\BusinessPlaceManagerExt.cs" />
+    <Compile Include="Comman\StockIndicatoresManagerExt.cs" />
+    <Compile Include="Comman\FiscalYearMasterManagerrExt.cs" />
+    <Compile Include="Comman\NumRangeMasterManagerExt.cs" />
+    <Compile Include="Comman\EmployeeMasterManagerExt.cs" />
+    <Compile Include="Comman\DepartmentMasterManagerExt.cs" />
+    <Compile Include="Comman\DesignationMasterManagerExt.cs" />
+    <Compile Include="Comman\CountryManagerExt.cs" />
+    <Compile Include="Comman\CurrencyManagerExt.cs" />
+    <Compile Include="Comman\CustomerClassManagerExt.cs" />
+    <Compile Include="Comman\DeliveryPriorityManagerExt.cs" />
+    <Compile Include="Comman\ExchangeRateTypeManagerExt.cs" />
+    <Compile Include="Comman\FieldCatalogueManagerExt.cs" />
+    <Compile Include="Comman\FieldMasterManagerExt.cs" />
+    <Compile Include="Comman\FiscalYearVariantManagerExt.cs" />
+    <Compile Include="Comman\IncoTermsManagerExt.cs" />
+    <Compile Include="Comman\IndustryMasterManagerExt.cs" />
+    <Compile Include="Comman\ItemTypeManagerExt.cs" />
+    <Compile Include="Comman\LanguageManagerExt.cs" />
+    <Compile Include="Comman\ModulePageManagerExt.cs" />
+    <Compile Include="Comman\OrderReasonManagerExt.cs" />
+    <Compile Include="Comman\PaymentTermsManagerExt.cs" />
+    <Compile Include="Comman\RoleMasterManagerExt.cs" />
+    <Compile Include="Comman\StateManagerExt.cs" />
+    <Compile Include="Comman\TransportZoneManagerExt.cs" />
+    <Compile Include="Comman\TypeOfReceipientManagerExt.cs" />
+    <Compile Include="Comman\UOMMasterManagerExt.cs" />
+    <Compile Include="Comman\UserMasterManagerExt.cs" />
+    <Compile Include="FI\AccAssignGrpCustomerManagerExt.cs" />
+    <Compile Include="FI\AccAssignGrpMaterialManagerExt.cs" />
+    <Compile Include="FI\AccountCategoryManagerExt.cs" />
+    <Compile Include="FI\AccountDocTypeManagerExt.cs" />
+    <Compile Include="FI\AccountGroupManagerExt.cs" />
+    <Compile Include="FI\AccountKeyMasterManagerExt.cs" />
+    <Compile Include="FI\TaxCatCustomerManagerExt.cs" />
+    <Compile Include="FI\CostCenterManagerExt.cs" />
+    <Compile Include="FI\GLAccountGroupsManagerExt.cs" />
+    <Compile Include="FI\GLAccountManagerExt.cs" />
+    <Compile Include="FI\ProfitCenterManagerExt.cs" />
+    <Compile Include="FI\SpecialGLIndicatorManagerExt.cs" />
+    <Compile Include="FI\TaxCategoryManagerExt.cs" />
+    <Compile Include="FI\TaxCatMaterialManagerExt.cs" />
+    <Compile Include="FI\WithHoldTaxCodeManagerExt.cs" />
+    <Compile Include="FI\WithHoldTaxTypeManagerExt.cs" />
+    <Compile Include="MM\BillsofMaterialManagerExt.cs" />
+    <Compile Include="MM\ClassMasterManagerExt.cs" />
+    <Compile Include="MM\ProductMasterManagerExt.cs" />
+    <Compile Include="MM\DeliveryItemCategoryManagerExt.cs" />
+    <Compile Include="MM\ExtMaterialGroupManagerExt.cs" />
+    <Compile Include="MM\ItemCategoryGroupManagerExt.cs" />
+    <Compile Include="MM\ItemCategoryManagerExt.cs" />
+    <Compile Include="MM\ItemCategory_MatMovementTypeManagerExt.cs" />
+    <Compile Include="MM\MaterialGroup1ManagerExt.cs" />
+    <Compile Include="MM\MaterialGroup2ManagerExt.cs" />
+    <Compile Include="MM\MaterialGroup3ManagerExt.cs" />
+    <Compile Include="MM\MaterialMasterManagerExt.cs" />
+    <Compile Include="MM\MaterialTypeManagerExt.cs" />
+    <Compile Include="MM\MatMovementTypeManagerExt.cs" />
+    <Compile Include="MM\PurchaseGroupManagerExt.cs" />
+    <Compile Include="MM\ValuationAreaManagerExt.cs" />
+    <Compile Include="MM\ValuationCategoryManagerExt.cs" />
+    <Compile Include="MM\ValuationClassManagerExt.cs" />
+    <Compile Include="MM\ValuationTypeManagerExt.cs" />
+    <Compile Include="Organisation\CompanyManagerExt.cs" />
+    <Compile Include="Organisation\StoreLocationManagerExt.cs" />
+    <Compile Include="Organisation\ShippingPointMasterManagerExt.cs" />
+    <Compile Include="Organisation\SalesRegionManagerExt.cs" />
+    <Compile Include="Organisation\SalesOrganizationManagerExt.cs" />
+    <Compile Include="Organisation\SalesofficeManagerExt.cs" />
+    <Compile Include="Organisation\SalesGroupManagerExt.cs" />
+    <Compile Include="Organisation\SalesDistrictManagerExt.cs" />
+    <Compile Include="Organisation\PurchaseOrganizationManagerExt.cs" />
+    <Compile Include="Organisation\PlantMasterManagerExt.cs" />
+    <Compile Include="Organisation\Plant_ShippingPointManagerExt.cs" />
+    <Compile Include="Organisation\DivisionManagerExt.cs" />
+    <Compile Include="Organisation\DistributionChannelManagerExt.cs" />
+    <Compile Include="Organisation\CRContUpdateTypeManagerExt.cs" />
+    <Compile Include="Organisation\CRControlAreaManagerExt.cs" />
+    <Compile Include="Organisation\CRContRiskCategoryManagerExt.cs" />
+    <Compile Include="Partner\PartnerPricingProcedureManagerExt.cs" />
+    <Compile Include="Partner\MaterialGroup_RepairTypeManagerExt.cs" />
+    <Compile Include="Partner\ConditionMasterManagerExt.cs" />
+    <Compile Include="Partner\CallTypeManagerExt.cs" />
+    <Compile Include="Partner\RepairProcessMasterManagerExt.cs" />
+    <Compile Include="Partner\RepairStatusMasterManagerExt.cs" />
+    <Compile Include="Partner\PartnerMaterialDocTypeManagerExt.cs" />
+    <Compile Include="Partner\PartnerStorageLocationManagerExt.cs" />
+    <Compile Include="Partner\WarrantyMasterManagerExt.cs" />
+    <Compile Include="Partner\PartnerTypeMasterManagerExt.cs" />
+    <Compile Include="Partner\WarrantyTermsManagerExt.cs" />
+    <Compile Include="Partner\ServiceLevelMasterManagerExt.cs" />
+    <Compile Include="Partner\RepairTypeMasterManagerExt.cs" />
+    <Compile Include="Partner\RepairDocTypeManagerExt.cs" />
+    <Compile Include="Partner\DefectMasterManagerExt.cs" />
+    <Compile Include="Partner\PartnerEmployeeMasterManagerExt.cs" />
+    <Compile Include="Partner\PartnerMasterManagerExt.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SAP\DBTableStructureManagerExt.cs" />
+    <Compile Include="SD\BillingDocTypeManagerExt.cs" />
+    <Compile Include="SD\VendorGroupManagerExt.cs" />
+    <Compile Include="SD\VendorAccTypeManagerExt.cs" />
+    <Compile Include="SD\SOTypeManagerExt.cs" />
+    <Compile Include="SD\SOCategoryManagerExt.cs" />
+    <Compile Include="SD\DeliveryMasterManagerExt.cs" />
+    <Compile Include="SD\VendorManagerExt.cs" />
+    <Compile Include="SD\SalesOrderManagerExt.cs" />
+    <Compile Include="SD\SalesOrderDetailManagerExt.cs" />
+    <Compile Include="SD\PricingConditionTypeManagerExt.cs" />
+    <Compile Include="SD\PartnerFunctionManagerExt.cs" />
+    <Compile Include="SD\ItemCategory_SODocTypeManagerExt.cs" />
+    <Compile Include="SD\ItemCategory_PODocTypeManagerExt.cs" />
+    <Compile Include="SD\ItemCategory_DeliveryDocTypeManagerExt.cs" />
+    <Compile Include="SD\DeliveryDocTypeManagerExt.cs" />
+    <Compile Include="SD\CustomerManagerExt.cs" />
+    <Compile Include="SD\CustomerGroupManagerExt.cs" />
+    <Compile Include="SD\CustomerAccTypeManagerExt.cs" />
+    <Compile Include="SD\Customer_SalesAreaManagerExt.cs" />
+    <Compile Include="SD\CRLimitCheckManagerExt.cs" />
+    <Compile Include="SD\PurchaseOrderDetailManagerExt.cs" />
+    <Compile Include="SD\PurchaseOrderManagerExt.cs" />
+    <Compile Include="SD\PODocTypeManagerExt.cs" />
+    <Compile Include="SD\IncomingInvDocTypeManagerExt.cs" />
+    <Compile Include="SD\InBDeliveyDocTypeManagerExt.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

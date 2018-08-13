@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC534ECD-5585-4AE8-8536-BA024461B4DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSMApp_SD</RootNamespace>
+    <AssemblyName>RSMApp_SD</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RSMApp_Connection">
+      <HintPath>..\..\RSMApp_Connection\RSMApp_Connection\bin\Debug\RSMApp_Connection.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_ErrorResult">
+      <HintPath>..\..\..\WFF\RSMApplication_1\bin\RSMApp_ErrorResult.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_MM">
+      <HintPath>..\..\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_Organization">
+      <HintPath>..\..\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Organization.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ModuleClass\BillingDetail.cs" />
+    <Compile Include="ModuleClass\BillingDetailList.cs" />
+    <Compile Include="ModuleClass\BillingDetailManager.cs" />
+    <Compile Include="ModuleClass\BillingDocType.cs" />
+    <Compile Include="ModuleClass\BillingDocTypeManager.cs" />
+    <Compile Include="ModuleClass\BillingMaster.cs" />
+    <Compile Include="ModuleClass\BillingMasterManager.cs" />
+    <Compile Include="ModuleClass\BillingPartner.cs" />
+    <Compile Include="ModuleClass\BillingPartnerManager.cs" />
+    <Compile Include="ModuleClass\IncomingInvDetailList.cs" />
+    <Compile Include="ModuleClass\InBDeliverySerializeList.cs" />
+    <Compile Include="ModuleClass\InBDeliveryDetailList.cs" />
+    <Compile Include="ModuleClass\InBDeliveryDetail.cs" />
+    <Compile Include="ModuleClass\InBDeliveryDetailManager.cs" />
+    <Compile Include="ModuleClass\InBDeliveryMaster.cs" />
+    <Compile Include="ModuleClass\InBDeliveryMasterManager.cs" />
+    <Compile Include="ModuleClass\InBDeliverySerializeDetail.cs" />
+    <Compile Include="ModuleClass\InBDeliverySerializeDetailManager.cs" />
+    <Compile Include="ModuleClass\InBDeliveyDocType.cs" />
+    <Compile Include="ModuleClass\InBDeliveyDocTypeManager.cs" />
+    <Compile Include="ModuleClass\IncomingInvDetail.cs" />
+    <Compile Include="ModuleClass\IncomingInvDetailManager.cs" />
+    <Compile Include="ModuleClass\IncomingInvDocType.cs" />
+    <Compile Include="ModuleClass\IncomingInvDocTypeManager.cs" />
+    <Compile Include="ModuleClass\IncomingInvMaster.cs" />
+    <Compile Include="ModuleClass\IncomingInvMasterManager.cs" />
+    <Compile Include="ModuleClass\POPriceCondition.cs" />
+    <Compile Include="ModuleClass\POPriceConditionList.cs" />
+    <Compile Include="ModuleClass\ItemCategory_PODocType.cs" />
+    <Compile Include="ModuleClass\ItemCategory_PODocTypeManager.cs" />
+    <Compile Include="ModuleClass\PODetailList.cs" />
+    <Compile Include="ModuleClass\CRLimitCheck.cs" />
+    <Compile Include="ModuleClass\CRLimitCheckManager.cs" />
+    <Compile Include="ModuleClass\Customer.cs" />
+    <Compile Include="ModuleClass\CustomerAccType.cs" />
+    <Compile Include="ModuleClass\CustomerAccTypeManager.cs" />
+    <Compile Include="ModuleClass\CustomerGroup.cs" />
+    <Compile Include="ModuleClass\CustomerGroupManager.cs" />
+    <Compile Include="ModuleClass\CustomerManager.cs" />
+    <Compile Include="ModuleClass\Customer_PartnerFunction.cs" />
+    <Compile Include="ModuleClass\Customer_PartnerFunctionManager.cs" />
+    <Compile Include="ModuleClass\Customer_SalesArea.cs" />
+    <Compile Include="ModuleClass\Customer_SalesAreaManager.cs" />
+    <Compile Include="ModuleClass\Customer_Tax.cs" />
+    <Compile Include="ModuleClass\Customer_TaxManager.cs" />
+    <Compile Include="ModuleClass\DeliveryDetail.cs" />
+    <Compile Include="ModuleClass\DeliveryDetailList.cs" />
+    <Compile Include="ModuleClass\DeliveryDetailManager.cs" />
+    <Compile Include="ModuleClass\DeliveryDocType.cs" />
+    <Compile Include="ModuleClass\DeliveryDocTypeManager.cs" />
+    <Compile Include="ModuleClass\DeliveryMaster.cs" />
+    <Compile Include="ModuleClass\DeliveryMasterManager.cs" />
+    <Compile Include="ModuleClass\DeliveryPartner.cs" />
+    <Compile Include="ModuleClass\DeliveryPartnerManager.cs" />
+    <Compile Include="ModuleClass\DeliverySerializeDetail.cs" />
+    <Compile Include="ModuleClass\DeliverySerializeDetailManager.cs" />
+    <Compile Include="ModuleClass\DeliverySerializeList.cs" />
+    <Compile Include="ModuleClass\DocumentTypeMapping.cs" />
+    <Compile Include="ModuleClass\DocumentTypeMappingManager.cs" />
+    <Compile Include="ModuleClass\ItemCategory_BillingDocType.cs" />
+    <Compile Include="ModuleClass\ItemCategory_BillingDocTypeManager.cs" />
+    <Compile Include="ModuleClass\ItemCategory_DeliveryDocType.cs" />
+    <Compile Include="ModuleClass\ItemCategory_DeliveryDocTypeManager.cs" />
+    <Compile Include="ModuleClass\ItemCategory_SODocType.cs" />
+    <Compile Include="ModuleClass\ItemCategory_SODocTypeManager.cs" />
+    <Compile Include="ModuleClass\PartnerFunction.cs" />
+    <Compile Include="ModuleClass\PartnerFunctionManager.cs" />
+    <Compile Include="ModuleClass\PODocType.cs" />
+    <Compile Include="ModuleClass\PODocTypeManager.cs" />
+    <Compile Include="ModuleClass\POPriceConditionManager.cs" />
+    <Compile Include="ModuleClass\PricingConditionType.cs" />
+    <Compile Include="ModuleClass\PricingConditionTypeManager.cs" />
+    <Compile Include="ModuleClass\PurchaseOrder.cs" />
+    <Compile Include="ModuleClass\PurchaseOrderDetail.cs" />
+    <Compile Include="ModuleClass\PurchaseOrderDetailManager.cs" />
+    <Compile Include="ModuleClass\PurchaseOrderManager.cs" />
+    <Compile Include="ModuleClass\SalesOrder.cs" />
+    <Compile Include="ModuleClass\SalesOrderDetail.cs" />
+    <Compile Include="ModuleClass\SalesOrderDetailManager.cs" />
+    <Compile Include="ModuleClass\SalesOrderManager.cs" />
+    <Compile Include="ModuleClass\SalesOrderPartner.cs" />
+    <Compile Include="ModuleClass\SalesOrderPartnerManager.cs" />
+    <Compile Include="ModuleClass\SOCategory.cs" />
+    <Compile Include="ModuleClass\SOCategoryManager.cs" />
+    <Compile Include="ModuleClass\SODetailList.cs" />
+    <Compile Include="ModuleClass\SOPriceCondition.cs" />
+    <Compile Include="ModuleClass\SOPriceConditionList.cs" />
+    <Compile Include="ModuleClass\SOPriceConditionManager.cs" />
+    <Compile Include="ModuleClass\SOSchedule.cs" />
+    <Compile Include="ModuleClass\SOScheduleList.cs" />
+    <Compile Include="ModuleClass\SOScheduleManager.cs" />
+    <Compile Include="ModuleClass\SOType.cs" />
+    <Compile Include="ModuleClass\SOTypeManager.cs" />
+    <Compile Include="ModuleClass\SOType_PricingConditionType.cs" />
+    <Compile Include="ModuleClass\SOType_PricingConditionTypeManager.cs" />
+    <Compile Include="ModuleClass\SOType_SalesArea.cs" />
+    <Compile Include="ModuleClass\SOType_SalesAreaManager.cs" />
+    <Compile Include="ModuleClass\Vendor.cs" />
+    <Compile Include="ModuleClass\VendorAccType.cs" />
+    <Compile Include="ModuleClass\VendorAccTypeManager.cs" />
+    <Compile Include="ModuleClass\VendorGroup.cs" />
+    <Compile Include="ModuleClass\VendorGroupManager.cs" />
+    <Compile Include="ModuleClass\VendorManager.cs" />
+    <Compile Include="ModuleClass\Vendor_AccountView.cs" />
+    <Compile Include="ModuleClass\Vendor_AccountViewManager.cs" />
+    <Compile Include="ModuleClass\Vendor_AccViewWHTax.cs" />
+    <Compile Include="ModuleClass\Vendor_AccViewWHTaxManager.cs" />
+    <Compile Include="ModuleClass\Vendor_Customer.cs" />
+    <Compile Include="ModuleClass\Vendor_CustomerManager.cs" />
+    <Compile Include="ModuleClass\Vendor_PurchaseOrg.cs" />
+    <Compile Include="ModuleClass\Vendor_PurchaseOrgManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,18 @@
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\obj\Debug\ResolveAssemblyReference.cache
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Organization.dll
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Organization.pdb
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Connection.dll
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_ErrorResult.dll
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Connection.pdb
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_ErrorResult.pdb
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\obj\Debug\RSMApp_Organization.dll
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\obj\Debug\RSMApp_Organization.pdb
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\bin\Debug\Telerik.Web.UI.dll
+D:\NEW RSM Projects\RSMApp_Organization\RSMApp_Organization\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\RSMApp_Organization\RSMApp_Organization\obj\Debug\ResolveAssemblyReference.cache
+D:\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Organization.dll
+D:\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Organization.pdb
+D:\RSMApp_Organization\RSMApp_Organization\obj\Debug\RSMApp_Organization.dll
+D:\RSMApp_Organization\RSMApp_Organization\obj\Debug\RSMApp_Organization.pdb
+D:\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Connection.pdb
+D:\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_ErrorResult.pdb

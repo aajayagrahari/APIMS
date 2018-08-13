@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC534ECD-5585-4AE8-8536-BA024461B4DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSMApp_SD</RootNamespace>
+    <AssemblyName>RSMApp_SD</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RSMApp_Connection">
+      <HintPath>..\..\RSMApp_Connection\RSMApp_Connection\bin\Debug\RSMApp_Connection.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_ErrorResult">
+      <HintPath>..\..\..\WFF\RSMApplication_1\bin\RSMApp_ErrorResult.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_Organization">
+      <HintPath>..\..\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Organization.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Web.UI, Version=2009.3.1208.20, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApp_Comman\RSMApp_Comman\bin\Debug\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ModuleClass\CRLimitCheck.cs" />
+    <Compile Include="ModuleClass\CRLimitCheckManager.cs" />
+    <Compile Include="ModuleClass\Customer.cs" />
+    <Compile Include="ModuleClass\CustomerAccType.cs" />
+    <Compile Include="ModuleClass\CustomerAccTypeManager.cs" />
+    <Compile Include="ModuleClass\CustomerManager.cs" />
+    <Compile Include="ModuleClass\Customer_SalesArea.cs" />
+    <Compile Include="ModuleClass\Customer_SalesAreaManager.cs" />
+    <Compile Include="ModuleClass\POType.cs" />
+    <Compile Include="ModuleClass\POTypeManager.cs" />
+    <Compile Include="ModuleClass\SalesOrder.cs" />
+    <Compile Include="ModuleClass\SalesOrderDetail.cs" />
+    <Compile Include="ModuleClass\SalesOrderDetailManager.cs" />
+    <Compile Include="ModuleClass\SalesOrderManager.cs" />
+    <Compile Include="ModuleClass\SOCategory.cs" />
+    <Compile Include="ModuleClass\SOCategoryManager.cs" />
+    <Compile Include="ModuleClass\SODetailList.cs" />
+    <Compile Include="ModuleClass\SOType.cs" />
+    <Compile Include="ModuleClass\SOTypeManager.cs" />
+    <Compile Include="ModuleClass\SOType_SalesArea.cs" />
+    <Compile Include="ModuleClass\SOType_SalesAreaManager.cs" />
+    <Compile Include="ModuleClass\Vendor.cs" />
+    <Compile Include="ModuleClass\VendorAccType.cs" />
+    <Compile Include="ModuleClass\VendorAccTypeManager.cs" />
+    <Compile Include="ModuleClass\VendorManager.cs" />
+    <Compile Include="ModuleClass\Vendor_Customer.cs" />
+    <Compile Include="ModuleClass\Vendor_CustomerManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47E0C6FA-54D5-4ACB-9009-B32252C7A747}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSMApp_Authorization</RootNamespace>
+    <AssemblyName>RSMApp_Authorization</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RSMApp_Connection">
+      <HintPath>C:\Documents and Settings\suhas\Desktop\Web Project IBALL_210213\Ashutoshji mail\RSMApp_Connection\RSMApp_Connection\bin\Debug\RSMApp_Connection.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_ErrorResult">
+      <HintPath>..\..\RSMApp_ErrorResult\RSMApp_ErrorResult\bin\Debug\RSMApp_ErrorResult.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>D:\WorkingFolder\RSMApplication_1\RSMApplication\bin\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ModuleClass\AuthConstant.cs" />
+    <Compile Include="ModuleClass\AuthJobRoleDetails.cs" />
+    <Compile Include="ModuleClass\AuthJobRoleDetailsManager.cs" />
+    <Compile Include="ModuleClass\AuthJobRoleMaster.cs" />
+    <Compile Include="ModuleClass\AuthJobRoleMasterManager.cs" />
+    <Compile Include="ModuleClass\AuthORGRoleDetails.cs" />
+    <Compile Include="ModuleClass\AuthORGRoleDetailsManager.cs" />
+    <Compile Include="ModuleClass\AuthOrgRoleMaster.cs" />
+    <Compile Include="ModuleClass\AuthOrgRoleMasterManager.cs" />
+    <Compile Include="ModuleClass\Profile.cs" />
+    <Compile Include="ModuleClass\ProfileDetail.cs" />
+    <Compile Include="ModuleClass\ProfileDetailManager.cs" />
+    <Compile Include="ModuleClass\ProfileManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

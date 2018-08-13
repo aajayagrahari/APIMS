@@ -1,0 +1,5 @@
+D:\NEW RSM Projects\RSMApp_Authentication\RSMApp_Authentication\bin\Debug\RSMApp_Authentication.dll
+D:\NEW RSM Projects\RSMApp_Authentication\RSMApp_Authentication\bin\Debug\RSMApp_Authentication.pdb
+D:\NEW RSM Projects\RSMApp_Authentication\RSMApp_Authentication\obj\Debug\ResolveAssemblyReference.cache
+D:\NEW RSM Projects\RSMApp_Authentication\RSMApp_Authentication\obj\Debug\RSMApp_Authentication.dll
+D:\NEW RSM Projects\RSMApp_Authentication\RSMApp_Authentication\obj\Debug\RSMApp_Authentication.pdb

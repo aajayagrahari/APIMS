@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F1DE1FAF-B5ED-43CB-90F8-9C13DA05F51B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSMApp_Partner</RootNamespace>
+    <AssemblyName>RSMApp_Partner</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RSMApp_Connection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApp_Connection\RSMApp_Connection\bin\Debug\RSMApp_Connection.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_ErrorResult">
+      <HintPath>..\..\RSMApp_Comman\RSMApp_Comman\bin\Debug\RSMApp_ErrorResult.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_MM">
+      <HintPath>..\..\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ModuleClass\AsgPartnerToPartner.cs" />
+    <Compile Include="ModuleClass\AsgPartnerToPartnerManager.cs" />
+    <Compile Include="ModuleClass\AsgTechnicianCallDetail.cs" />
+    <Compile Include="ModuleClass\AsgTechnicianCallDetailCol.cs" />
+    <Compile Include="ModuleClass\AsgTechnicianCallDetailManager.cs" />
+    <Compile Include="ModuleClass\AsgTechnicianCallMaster.cs" />
+    <Compile Include="ModuleClass\AsgTechnicianCallMasterManager.cs" />
+    <Compile Include="ModuleClass\AsgTechnicianDocType.cs" />
+    <Compile Include="ModuleClass\AsgTechnicianDocTypeManager.cs" />
+    <Compile Include="ModuleClass\BrowserData.cs" />
+    <Compile Include="ModuleClass\CallAdvRepDocType.cs" />
+    <Compile Include="ModuleClass\CallAdvRepDocTypeManager.cs" />
+    <Compile Include="ModuleClass\CallAdvRepIssueCol.cs" />
+    <Compile Include="ModuleClass\CallAdvReplacementIssue.cs" />
+    <Compile Include="ModuleClass\CallAdvReplacementIssueManager.cs" />
+    <Compile Include="ModuleClass\CallAdvReplacementReceipt.cs" />
+    <Compile Include="ModuleClass\CallAdvReplacementReceiptManager.cs" />
+    <Compile Include="ModuleClass\CallAdvRepReceiptCol.cs" />
+    <Compile Include="ModuleClass\CallBillingDoc.cs" />
+    <Compile Include="ModuleClass\CallBillingDocCol.cs" />
+    <Compile Include="ModuleClass\CallBillingDocManager.cs" />
+    <Compile Include="ModuleClass\CallBillingDocMaster.cs" />
+    <Compile Include="ModuleClass\CallBillingDocMasterManager.cs" />
+    <Compile Include="ModuleClass\CallBillingDocType.cs" />
+    <Compile Include="ModuleClass\CallBillingDocTypeManager.cs" />
+    <Compile Include="ModuleClass\CallClosingDetailCol.cs" />
+    <Compile Include="ModuleClass\CallClosingDetails.cs" />
+    <Compile Include="ModuleClass\CallClosingDetailsManager.cs" />
+    <Compile Include="ModuleClass\CallClosingDocType.cs" />
+    <Compile Include="ModuleClass\CallClosingDocTypeManager.cs" />
+    <Compile Include="ModuleClass\CallClosingMaster.cs" />
+    <Compile Include="ModuleClass\CallClosingMasterManager.cs" />
+    <Compile Include="ModuleClass\CallDefectTypeCol.cs" />
+    <Compile Include="ModuleClass\CallDefectTypeDetail.cs" />
+    <Compile Include="ModuleClass\CallDefectTypeDetailManager.cs" />
+    <Compile Include="ModuleClass\CallEstimation.cs" />
+    <Compile Include="ModuleClass\CallEstimationCol.cs" />
+    <Compile Include="ModuleClass\CallEstimationManager.cs" />
+    <Compile Include="ModuleClass\CallInvoiceDetail.cs" />
+    <Compile Include="ModuleClass\CallInvoiceDetailManager.cs" />
+    <Compile Include="ModuleClass\CallLogin.cs" />
+    <Compile Include="ModuleClass\CallLoginDetail.cs" />
+    <Compile Include="ModuleClass\CallLoginDetailCol.cs" />
+    <Compile Include="ModuleClass\CallLoginDetailManager.cs" />
+    <Compile Include="ModuleClass\CallLoginManager.cs" />
+    <Compile Include="ModuleClass\CallPartConsumptionCol.cs" />
+    <Compile Include="ModuleClass\CallPartsConsumption.cs" />
+    <Compile Include="ModuleClass\CallPartsConsumptionManager.cs" />
+    <Compile Include="ModuleClass\CallPartsOrder.cs" />
+    <Compile Include="ModuleClass\CallPartsOrderCol.cs" />
+    <Compile Include="ModuleClass\CallPartsOrderManager.cs" />
+    <Compile Include="ModuleClass\CallRepairProcess.cs" />
+    <Compile Include="ModuleClass\CallRepairProcessCol.cs" />
+    <Compile Include="ModuleClass\CallRepairProcessManager.cs" />
+    <Compile Include="ModuleClass\CallRepairTypeCol.cs" />
+    <Compile Include="ModuleClass\CallRepairTypeDetail.cs" />
+    <Compile Include="ModuleClass\CallRepairTypeDetailManager.cs" />
+    <Compile Include="ModuleClass\CallStandByDocType.cs" />
+    <Compile Include="ModuleClass\CallStandByDocTypeManager.cs" />
+    <Compile Include="ModuleClass\CallStandByNumRange.cs" />
+    <Compile Include="ModuleClass\CallStandByNumRangeManager.cs" />
+    <Compile Include="ModuleClass\CallType.cs" />
+    <Compile Include="ModuleClass\CallTypeDetail.cs" />
+    <Compile Include="ModuleClass\CallTypeDetailManager.cs" />
+    <Compile Include="ModuleClass\CallTypeManager.cs" />
+    <Compile Include="ModuleClass\CallType_CallClosingDocType.cs" />
+    <Compile Include="ModuleClass\CallType_CallClosingDocTypeManager.cs" />
+    <Compile Include="ModuleClass\CanabalizeDetails.cs" />
+    <Compile Include="ModuleClass\CanabalizeDetailsCol.cs" />
+    <Compile Include="ModuleClass\CanabalizeDetailsManager.cs" />
+    <Compile Include="ModuleClass\CanabalizeDocType.cs" />
+    <Compile Include="ModuleClass\CanabalizeDocTypeManager.cs" />
+    <Compile Include="ModuleClass\CanabalizeMaster.cs" />
+    <Compile Include="ModuleClass\CanabalizeMasterManager.cs" />
+    <Compile Include="ModuleClass\ChangeSerialNo.cs" />
+    <Compile Include="ModuleClass\ChangeSerialNoManager.cs" />
+    <Compile Include="ModuleClass\ConAgst_RepairType.cs" />
+    <Compile Include="ModuleClass\ConAgst_RepairTypeManager.cs" />
+    <Compile Include="ModuleClass\ConditionMaster.cs" />
+    <Compile Include="ModuleClass\ConditionMasterManager.cs" />
+    <Compile Include="ModuleClass\DCanabalizeDetails.cs" />
+    <Compile Include="ModuleClass\DCanabalizeDetailsCol.cs" />
+    <Compile Include="ModuleClass\DCanabalizeDetailsManager.cs" />
+    <Compile Include="ModuleClass\DCanabalizeDocType.cs" />
+    <Compile Include="ModuleClass\DCanabalizeDocTypeManager.cs" />
+    <Compile Include="ModuleClass\DCanabalizeMaster.cs" />
+    <Compile Include="ModuleClass\DCanabalizeMasterManager.cs" />
+    <Compile Include="ModuleClass\DefectTypeMaster.cs" />
+    <Compile Include="ModuleClass\DefectTypeMasterManager.cs" />
+    <Compile Include="ModuleClass\MatGroup_DefectType.cs" />
+    <Compile Include="ModuleClass\MatGroup_DefectTypeManager.cs" />
+    <Compile Include="ModuleClass\MatGroup_RepairType.cs" />
+    <Compile Include="ModuleClass\MatGroup_RepairTypeManager.cs" />
+    <Compile Include="ModuleClass\MatGroup_ServiceLevel.cs" />
+    <Compile Include="ModuleClass\MatGroup_ServiceLevelManager.cs" />
+    <Compile Include="ModuleClass\MatGroup_StateSalesVat.cs" />
+    <Compile Include="ModuleClass\MatGroup_StateSalesVatManager.cs" />
+    <Compile Include="ModuleClass\MatGroup_WarrantyTerm.cs" />
+    <Compile Include="ModuleClass\MatGroup_WarrantyTermManager.cs" />
+    <Compile Include="ModuleClass\PartnerEmployeeMaster.cs" />
+    <Compile Include="ModuleClass\PartnerEmployeeMasterManager.cs" />
+    <Compile Include="ModuleClass\PartnerErrorResult.cs" />
+    <Compile Include="ModuleClass\PartnerGMDocType.cs" />
+    <Compile Include="ModuleClass\PartnerGMDocTypeManager.cs" />
+    <Compile Include="ModuleClass\PartnerGoodsMovement.cs" />
+    <Compile Include="ModuleClass\PartnerGoodsMovementDetail.cs" />
+    <Compile Include="ModuleClass\PartnerGoodsMovementDetailCol.cs" />
+    <Compile Include="ModuleClass\PartnerGoodsMovementDetailManager.cs" />
+    <Compile Include="ModuleClass\PartnerGoodsMovementManager.cs" />
+    <Compile Include="ModuleClass\PartnerGoodsMovSerialDetail.cs" />
+    <Compile Include="ModuleClass\PartnerGoodsMovSerialDetailCol.cs" />
+    <Compile Include="ModuleClass\PartnerGoodsMovSerialDetailManager.cs" />
+    <Compile Include="ModuleClass\PartnerMaster.cs" />
+    <Compile Include="ModuleClass\PartnerMasterManager.cs" />
+    <Compile Include="ModuleClass\PartnerMaterialDocType.cs" />
+    <Compile Include="ModuleClass\PartnerMaterialDocTypeManager.cs" />
+    <Compile Include="ModuleClass\PartnerMatPriceList.cs" />
+    <Compile Include="ModuleClass\PartnerMatPriceListManager.cs" />
+    <Compile Include="ModuleClass\PartnerPricingProcedure.cs" />
+    <Compile Include="ModuleClass\PartnerPricingProcedureManager.cs" />
+    <Compile Include="ModuleClass\PartnerServiceTax.cs" />
+    <Compile Include="ModuleClass\PartnerServiceTaxManager.cs" />
+    <Compile Include="ModuleClass\PartnerStock.cs" />
+    <Compile Include="ModuleClass\PartnerStockManager.cs" />
+    <Compile Include="ModuleClass\PartnerStorageLocation.cs" />
+    <Compile Include="ModuleClass\PartnerStorageLocationManager.cs" />
+    <Compile Include="ModuleClass\PartnerTypeMaster.cs" />
+    <Compile Include="ModuleClass\PartnerTypeMasterManager.cs" />
+    <Compile Include="ModuleClass\PartnerUserMaster.cs" />
+    <Compile Include="ModuleClass\PartnerUserMasterManager.cs" />
+    <Compile Include="ModuleClass\PartnerVendorMaster.cs" />
+    <Compile Include="ModuleClass\PartnerVendorMasterManager.cs" />
+    <Compile Include="ModuleClass\Partner_MaterialGroup.cs" />
+    <Compile Include="ModuleClass\Partner_MaterialGroupManager.cs" />
+    <Compile Include="ModuleClass\Partner_ServiceLevel.cs" />
+    <Compile Include="ModuleClass\Partner_ServiceLevelManager.cs" />
+    <Compile Include="ModuleClass\RepairDocType.cs" />
+    <Compile Include="ModuleClass\RepairDocTypeManager.cs" />
+    <Compile Include="ModuleClass\RepairDocType_CallType.cs" />
+    <Compile Include="ModuleClass\RepairDocType_CallTypeManager.cs" />
+    <Compile Include="ModuleClass\RepairProcDocType.cs" />
+    <Compile Include="ModuleClass\RepairProcDocTypeDetail.cs" />
+    <Compile Include="ModuleClass\RepairProcDocTypeDetailManager.cs" />
+    <Compile Include="ModuleClass\RepairProcDocTypeManager.cs" />
+    <Compile Include="ModuleClass\RepairProcessMaster.cs" />
+    <Compile Include="ModuleClass\RepairProcessMasterManager.cs" />
+    <Compile Include="ModuleClass\RepairProcess_StatusMaster.cs" />
+    <Compile Include="ModuleClass\RepairProcess_StatusMasterManager.cs" />
+    <Compile Include="ModuleClass\RepairStatusMaster.cs" />
+    <Compile Include="ModuleClass\RepairStatusMasterManager.cs" />
+    <Compile Include="ModuleClass\RepairTypeMaster.cs" />
+    <Compile Include="ModuleClass\RepairTypeMasterManager.cs" />
+    <Compile Include="ModuleClass\ReplacementOrder.cs" />
+    <Compile Include="ModuleClass\ReplacementOrderDetail.cs" />
+    <Compile Include="ModuleClass\ReplacementOrderDetailCol.cs" />
+    <Compile Include="ModuleClass\ReplacementOrderDetailManager.cs" />
+    <Compile Include="ModuleClass\ReplacementOrderManager.cs" />
+    <Compile Include="ModuleClass\ReplacementOrderSerialDetail.cs" />
+    <Compile Include="ModuleClass\ReplacementOrderSerialDetailCol.cs" />
+    <Compile Include="ModuleClass\ReplacementOrderSerialDetailManager.cs" />
+    <Compile Include="ModuleClass\RepOrderDocType.cs" />
+    <Compile Include="ModuleClass\RepOrderDocTypeManager.cs" />
+    <Compile Include="ModuleClass\SerializeStockMissingParts.cs" />
+    <Compile Include="ModuleClass\SerializeStockMissingPartsCol.cs" />
+    <Compile Include="ModuleClass\SerializeStockMissingPartsManager.cs" />
+    <Compile Include="ModuleClass\ServiceLevelMaster.cs" />
+    <Compile Include="ModuleClass\ServiceLevelMasterManager.cs" />
+    <Compile Include="ModuleClass\StockTransferDocType.cs" />
+    <Compile Include="ModuleClass\StockTransferDocTypeManager.cs" />
+    <Compile Include="ModuleClass\WarrantyDetail.cs" />
+    <Compile Include="ModuleClass\WarrantyDetailManager.cs" />
+    <Compile Include="ModuleClass\WarrantyMaster.cs" />
+    <Compile Include="ModuleClass\WarrantyMasterManager.cs" />
+    <Compile Include="ModuleClass\WarrantyTerms.cs" />
+    <Compile Include="ModuleClass\WarrantyTermsManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

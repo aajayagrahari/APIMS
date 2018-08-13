@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{84358833-183B-4154-B32F-8954D5D9F52D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSMApp_FI</RootNamespace>
+    <AssemblyName>RSMApp_FI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RSMApp_Connection">
+      <HintPath>..\..\RSMApp_SD\RSMApp_SD\bin\Debug\RSMApp_Connection.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_ErrorResult">
+      <HintPath>..\..\RSMApp_SD\RSMApp_SD\bin\Debug\RSMApp_ErrorResult.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApplication\bin\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ModuleClass\AccAssignGrpCustomer.cs" />
+    <Compile Include="ModuleClass\AccAssignGrpCustomerManager.cs" />
+    <Compile Include="ModuleClass\AccAssignGrpMaterial.cs" />
+    <Compile Include="ModuleClass\AccAssignGrpMaterialManager.cs" />
+    <Compile Include="ModuleClass\AccDeterminPro.cs" />
+    <Compile Include="ModuleClass\AccDeterminProManager.cs" />
+    <Compile Include="ModuleClass\AccDeterminTableDetail.cs" />
+    <Compile Include="ModuleClass\AccDeterminTableDetailManager.cs" />
+    <Compile Include="ModuleClass\AccDeterminTableMaster.cs" />
+    <Compile Include="ModuleClass\AccDeterminTableMasterManager.cs" />
+    <Compile Include="ModuleClass\AccountCategory.cs" />
+    <Compile Include="ModuleClass\AccountCategoryManager.cs" />
+    <Compile Include="ModuleClass\AccountDocType.cs" />
+    <Compile Include="ModuleClass\AccountDocTypeManager.cs" />
+    <Compile Include="ModuleClass\AccountGroup.cs" />
+    <Compile Include="ModuleClass\AccountGroupManager.cs" />
+    <Compile Include="ModuleClass\AccountKeyMaster.cs" />
+    <Compile Include="ModuleClass\AccountKeyMasterManager.cs" />
+    <Compile Include="ModuleClass\CostCenter.cs" />
+    <Compile Include="ModuleClass\CostCenterManager.cs" />
+    <Compile Include="ModuleClass\GLAccount.cs" />
+    <Compile Include="ModuleClass\GLAccountGroups.cs" />
+    <Compile Include="ModuleClass\GLAccountGroupsManager.cs" />
+    <Compile Include="ModuleClass\GLAccountManager.cs" />
+    <Compile Include="ModuleClass\GLAccount_AccountGroup.cs" />
+    <Compile Include="ModuleClass\GLAccount_AccountGroupManager.cs" />
+    <Compile Include="ModuleClass\PaymentMaster.cs" />
+    <Compile Include="ModuleClass\PaymentMasterManager.cs" />
+    <Compile Include="ModuleClass\ProfitCenter.cs" />
+    <Compile Include="ModuleClass\ProfitCenterManager.cs" />
+    <Compile Include="ModuleClass\ProfitCenter_Company.cs" />
+    <Compile Include="ModuleClass\ProfitCenter_CompanyManager.cs" />
+    <Compile Include="ModuleClass\SpecialGLIndicator.cs" />
+    <Compile Include="ModuleClass\SpecialGLIndicatorManager.cs" />
+    <Compile Include="ModuleClass\TaxCatCountry.cs" />
+    <Compile Include="ModuleClass\TaxCatCountryManager.cs" />
+    <Compile Include="ModuleClass\TaxCatCustomer.cs" />
+    <Compile Include="ModuleClass\TaxCatCustomerManager.cs" />
+    <Compile Include="ModuleClass\TaxCategory.cs" />
+    <Compile Include="ModuleClass\TaxCategoryManager.cs" />
+    <Compile Include="ModuleClass\TaxCatMaterial.cs" />
+    <Compile Include="ModuleClass\TaxCatMaterialManager.cs" />
+    <Compile Include="ModuleClass\WithHoldTaxCode.cs" />
+    <Compile Include="ModuleClass\WithHoldTaxCodeManager.cs" />
+    <Compile Include="ModuleClass\WithHoldTaxType.cs" />
+    <Compile Include="ModuleClass\WithHoldTaxTypeManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

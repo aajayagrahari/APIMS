@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{73ED407A-C282-47D8-B062-DC78D1F7D6AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSMApp_MM</RootNamespace>
+    <AssemblyName>RSMApp_MM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RSMApp_Connection">
+      <HintPath>..\..\RSMApp_Connection\RSMApp_Connection\bin\Debug\RSMApp_Connection.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_ErrorResult, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApp_ErrorResult\RSMApp_ErrorResult\bin\Debug\RSMApp_ErrorResult.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_Organization">
+      <HintPath>..\..\RSMApp_Organization\RSMApp_Organization\bin\Debug\RSMApp_Organization.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApplication\bin\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ModuleClass\BillingItemCategory.cs" />
+    <Compile Include="ModuleClass\BillingItemCategoryManager.cs" />
+    <Compile Include="ModuleClass\BillsofMaterial.cs" />
+    <Compile Include="ModuleClass\BillsofMateriallCol.cs" />
+    <Compile Include="ModuleClass\BillsofMaterialManager.cs" />
+    <Compile Include="ModuleClass\BOMList.cs" />
+    <Compile Include="ModuleClass\BOM_Serial.cs" />
+    <Compile Include="ModuleClass\BOM_SerialManager.cs" />
+    <Compile Include="ModuleClass\CharacteristicValueList.cs" />
+    <Compile Include="ModuleClass\CharactersticsValueMaster.cs" />
+    <Compile Include="ModuleClass\CharactersticsValueMasterManager.cs" />
+    <Compile Include="ModuleClass\CharactersticValueChar.cs" />
+    <Compile Include="ModuleClass\CharactersticValueCharManager.cs" />
+    <Compile Include="ModuleClass\CharactersticValueCurrency.cs" />
+    <Compile Include="ModuleClass\CharactersticValueCurrencyManager.cs" />
+    <Compile Include="ModuleClass\CharactersticValueNumeric.cs" />
+    <Compile Include="ModuleClass\CharactersticValueNumericManager.cs" />
+    <Compile Include="ModuleClass\CharAllowedValue.cs" />
+    <Compile Include="ModuleClass\CharAllowedValueManager.cs" />
+    <Compile Include="ModuleClass\ClassCharacteristic.cs" />
+    <Compile Include="ModuleClass\ClassCharacteristicManager.cs" />
+    <Compile Include="ModuleClass\ClassMaster.cs" />
+    <Compile Include="ModuleClass\ClassMasterManager.cs" />
+    <Compile Include="ModuleClass\DeliveryItemCategory.cs" />
+    <Compile Include="ModuleClass\DeliveryItemCategoryManager.cs" />
+    <Compile Include="ModuleClass\ExtMaterialGroup.cs" />
+    <Compile Include="ModuleClass\ExtMaterialGroupManager.cs" />
+    <Compile Include="ModuleClass\ItemCategory.cs" />
+    <Compile Include="ModuleClass\ItemCategoryGroup.cs" />
+    <Compile Include="ModuleClass\ItemCategoryGroupManager.cs" />
+    <Compile Include="ModuleClass\ItemCategoryManager.cs" />
+    <Compile Include="ModuleClass\ItemCategory_MatMovementType.cs" />
+    <Compile Include="ModuleClass\ItemCategory_MatMovementTypeManager.cs" />
+    <Compile Include="ModuleClass\MaterialBatch.cs" />
+    <Compile Include="ModuleClass\MaterialBatchManager.cs" />
+    <Compile Include="ModuleClass\MaterialGroup1.cs" />
+    <Compile Include="ModuleClass\MaterialGroup1Manager.cs" />
+    <Compile Include="ModuleClass\MaterialGroup2.cs" />
+    <Compile Include="ModuleClass\MaterialGroup2Manager.cs" />
+    <Compile Include="ModuleClass\MaterialGroup3.cs" />
+    <Compile Include="ModuleClass\MaterialGroup3Manager.cs" />
+    <Compile Include="ModuleClass\MaterialMaster.cs" />
+    <Compile Include="ModuleClass\MaterialMasterManager.cs" />
+    <Compile Include="ModuleClass\MaterialType.cs" />
+    <Compile Include="ModuleClass\MaterialTypeManager.cs" />
+    <Compile Include="ModuleClass\Material_Class.cs" />
+    <Compile Include="ModuleClass\Material_ClassManager.cs" />
+    <Compile Include="ModuleClass\Material_Plant.cs" />
+    <Compile Include="ModuleClass\Material_PlantManager.cs" />
+    <Compile Include="ModuleClass\Material_ProfitCenter.cs" />
+    <Compile Include="ModuleClass\Material_ProfitCenterManager.cs" />
+    <Compile Include="ModuleClass\Material_SalesArea.cs" />
+    <Compile Include="ModuleClass\Material_SalesAreaManager.cs" />
+    <Compile Include="ModuleClass\Material_StoreageLocation.cs" />
+    <Compile Include="ModuleClass\Material_StoreageLocationManager.cs" />
+    <Compile Include="ModuleClass\Material_Valuation.cs" />
+    <Compile Include="ModuleClass\Material_ValuationArea.cs" />
+    <Compile Include="ModuleClass\Material_ValuationManager.cs" />
+    <Compile Include="ModuleClass\MatMovementType.cs" />
+    <Compile Include="ModuleClass\MatMovementTypeManager.cs" />
+    <Compile Include="ModuleClass\PartnerErrorResult_MM.cs" />
+    <Compile Include="ModuleClass\ProductMaster.cs" />
+    <Compile Include="ModuleClass\ProductMasterList.cs" />
+    <Compile Include="ModuleClass\ProductMasterManager.cs" />
+    <Compile Include="ModuleClass\PurchaseGroup.cs" />
+    <Compile Include="ModuleClass\PurchaseGroupManager.cs" />
+    <Compile Include="ModuleClass\ValuationArea.cs" />
+    <Compile Include="ModuleClass\ValuationAreaManager.cs" />
+    <Compile Include="ModuleClass\ValuationArea_Category_Type.cs" />
+    <Compile Include="ModuleClass\ValuationArea_Category_TypeManager.cs" />
+    <Compile Include="ModuleClass\ValuationCategory.cs" />
+    <Compile Include="ModuleClass\ValuationCategoryManager.cs" />
+    <Compile Include="ModuleClass\ValuationClass.cs" />
+    <Compile Include="ModuleClass\ValuationClassManager.cs" />
+    <Compile Include="ModuleClass\ValuationType.cs" />
+    <Compile Include="ModuleClass\ValuationTypeManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

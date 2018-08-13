@@ -1,0 +1,91 @@
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Connection.dll
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_ErrorResult.dll
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Connection.pdb
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_ErrorResult.pdb
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.pdb
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Organization.dll
+D:\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Organization.pdb
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\bin\Debug\RSMApp_Connection.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\bin\Debug\RSMApp_ErrorResult.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\bin\Debug\RSMApp_Organization.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\bin\Debug\Telerik.Web.UI.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\bin\Debug\RSMApp_Connection.pdb
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\bin\Debug\RSMApp_ErrorResult.pdb
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\bin\Debug\RSMApp_Organization.pdb
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM_260312\RSMApp_MM\obj\Debug\RSMApp_MM.pdb
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Connection.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_ErrorResult.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Organization.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\Telerik.Web.UI.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Connection.pdb
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_ErrorResult.pdb
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Organization.pdb
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+D:\Ashutosh Shared\NEW RSM Projects\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.pdb
+C:\RSM Project\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+C:\RSM Project\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+C:\RSM Project\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Organization.dll
+C:\RSM Project\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Connection.pdb
+C:\RSM Project\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_ErrorResult.pdb
+C:\RSM Project\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Organization.pdb
+C:\RSM Project\RSMApp_MM\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+C:\RSM Project\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+C:\RSM Project\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.pdb
+\\emac2\Ashutosh Shared\DLL\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+\\emac2\Ashutosh Shared\DLL\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+\\emac2\Ashutosh Shared\DLL\RSMApp_MM\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+\\emac2\Ashutosh Shared\DLL\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+\\emac2\Ashutosh Shared\DLL\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.pdb
+D:\Working DLLs\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+D:\Working DLLs\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+D:\Working DLLs\RSMApp_MM\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+D:\Working DLLs\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+D:\Working DLLs\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.pdb
+C:\RSM Project\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Connection.dll
+C:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+C:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+C:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Organization.dll
+C:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\System.Web.Extensions.dll
+C:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Connection.pdb
+C:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_ErrorResult.pdb
+C:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Organization.pdb
+C:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+C:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+C:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.pdb
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Organization.dll
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\System.Web.Extensions.dll
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Connection.pdb
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_ErrorResult.pdb
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Organization.pdb
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.pdb
+D:\Suhas Kate\Projects\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_Connection.dll
+C:\Documents and Settings\suhas\Desktop\280513\RSMApp_MM\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\suhas\Desktop\280513\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+C:\Documents and Settings\suhas\Desktop\280513\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+C:\Documents and Settings\suhas\Desktop\280513\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+C:\Documents and Settings\suhas\Desktop\280513\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.pdb
+D:\Project\DLLs\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+D:\Project\DLLs\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+D:\Project\DLLs\RSMApp_MM\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\DLLs\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+D:\Project\DLLs\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.pdb
+F:\Services & DLLs for Partner Portal\06 June 2013\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.dll
+F:\Services & DLLs for Partner Portal\06 June 2013\RSMApp_MM\RSMApp_MM\bin\Debug\RSMApp_MM.pdb
+F:\Services & DLLs for Partner Portal\06 June 2013\RSMApp_MM\RSMApp_MM\obj\Debug\ResolveAssemblyReference.cache
+F:\Services & DLLs for Partner Portal\06 June 2013\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.dll
+F:\Services & DLLs for Partner Portal\06 June 2013\RSMApp_MM\RSMApp_MM\obj\Debug\RSMApp_MM.pdb

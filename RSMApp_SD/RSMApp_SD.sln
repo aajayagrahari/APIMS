@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSMApp_SD", "RSMApp_SD\RSMApp_SD.csproj", "{AC534ECD-5585-4AE8-8536-BA024461B4DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC534ECD-5585-4AE8-8536-BA024461B4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC534ECD-5585-4AE8-8536-BA024461B4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC534ECD-5585-4AE8-8536-BA024461B4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC534ECD-5585-4AE8-8536-BA024461B4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

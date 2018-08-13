@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49450B72-E770-40EC-8EB9-3A7B826488FE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSMApp_Comman</RootNamespace>
+    <AssemblyName>RSMApp_Comman</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RSMApp_Connection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Suhas ji App\RSMApp_Connection.dll</HintPath>
+    </Reference>
+    <Reference Include="RSMApp_ErrorResult, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApp_ErrorResult\RSMApp_ErrorResult\bin\Debug\RSMApp_ErrorResult.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RSMApplication\bin\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ModuleClass\AccountNumRange.cs" />
+    <Compile Include="ModuleClass\AccountNumRangeManager.cs" />
+    <Compile Include="ModuleClass\ACPostingPeriod.cs" />
+    <Compile Include="ModuleClass\ACPostingPeriodManager.cs" />
+    <Compile Include="ModuleClass\AsgTechCallNumRange.cs" />
+    <Compile Include="ModuleClass\AsgTechCallNumRangeManager.cs" />
+    <Compile Include="ModuleClass\BillingNumRange.cs" />
+    <Compile Include="ModuleClass\BillingNumRangeManager.cs" />
+    <Compile Include="ModuleClass\BillingRelevant.cs" />
+    <Compile Include="ModuleClass\BillingRelevantManager.cs" />
+    <Compile Include="ModuleClass\BusinessArea.cs" />
+    <Compile Include="ModuleClass\BusinessAreaManager.cs" />
+    <Compile Include="ModuleClass\BusinessPlace.cs" />
+    <Compile Include="ModuleClass\BusinessPlaceManager.cs" />
+    <Compile Include="ModuleClass\CalculationTypeMaster.cs" />
+    <Compile Include="ModuleClass\CalculationTypeMasterManager.cs" />
+    <Compile Include="ModuleClass\CallAdvRepNumRange.cs" />
+    <Compile Include="ModuleClass\CallAdvRepNumRangeManager.cs" />
+    <Compile Include="ModuleClass\CallBillingDocNumRange.cs" />
+    <Compile Include="ModuleClass\CallBillingDocNumRangeManager.cs" />
+    <Compile Include="ModuleClass\CallClosingNumRange.cs" />
+    <Compile Include="ModuleClass\CallClosingNumRangeManager.cs" />
+    <Compile Include="ModuleClass\ChartOfAccount.cs" />
+    <Compile Include="ModuleClass\ChartOfAccountManager.cs" />
+    <Compile Include="ModuleClass\Client.cs" />
+    <Compile Include="ModuleClass\ClientManager.cs" />
+    <Compile Include="ModuleClass\ControllingArea.cs" />
+    <Compile Include="ModuleClass\ControllingAreaManager.cs" />
+    <Compile Include="ModuleClass\Country.cs" />
+    <Compile Include="ModuleClass\CountryManager.cs" />
+    <Compile Include="ModuleClass\Currency.cs" />
+    <Compile Include="ModuleClass\CurrencyManager.cs" />
+    <Compile Include="ModuleClass\CustomerClass.cs" />
+    <Compile Include="ModuleClass\CustomerClassManager.cs" />
+    <Compile Include="ModuleClass\CustomerNumRange.cs" />
+    <Compile Include="ModuleClass\CustomerNumRangeManager.cs" />
+    <Compile Include="ModuleClass\DeliveryNumRange.cs" />
+    <Compile Include="ModuleClass\DeliveryNumRangeManager.cs" />
+    <Compile Include="ModuleClass\DeliveryPriority.cs" />
+    <Compile Include="ModuleClass\DeliveryPriorityManager.cs" />
+    <Compile Include="ModuleClass\DepartmentMaster.cs" />
+    <Compile Include="ModuleClass\DepartmentMasterManager.cs" />
+    <Compile Include="ModuleClass\DesignationMaster.cs" />
+    <Compile Include="ModuleClass\DesignationMasterManager.cs" />
+    <Compile Include="ModuleClass\EmployeeMaster.cs" />
+    <Compile Include="ModuleClass\EmployeeMasterManager.cs" />
+    <Compile Include="ModuleClass\ExchangeRateType.cs" />
+    <Compile Include="ModuleClass\ExchangeRateTypeManager.cs" />
+    <Compile Include="ModuleClass\FieldCatalogue.cs" />
+    <Compile Include="ModuleClass\FieldCatalogueManager.cs" />
+    <Compile Include="ModuleClass\FieldMaster.cs" />
+    <Compile Include="ModuleClass\FieldMasterManager.cs" />
+    <Compile Include="ModuleClass\FiscalYearMaster.cs" />
+    <Compile Include="ModuleClass\FiscalYearMasterManager.cs" />
+    <Compile Include="ModuleClass\FiscalYearVariant.cs" />
+    <Compile Include="ModuleClass\FiscalYearVariantManager.cs" />
+    <Compile Include="ModuleClass\GoodsMMNumRange.cs" />
+    <Compile Include="ModuleClass\GoodsMMNumRangeManager.cs" />
+    <Compile Include="ModuleClass\InBDeliveryNumRange.cs" />
+    <Compile Include="ModuleClass\InBDeliveryNumRangeManager.cs" />
+    <Compile Include="ModuleClass\IncomingInvNumRange.cs" />
+    <Compile Include="ModuleClass\IncomingInvNumRangeManager.cs" />
+    <Compile Include="ModuleClass\IncoTerms.cs" />
+    <Compile Include="ModuleClass\IncoTermsManager.cs" />
+    <Compile Include="ModuleClass\IndustryMaster.cs" />
+    <Compile Include="ModuleClass\IndustryMasterManager.cs" />
+    <Compile Include="ModuleClass\ItemType.cs" />
+    <Compile Include="ModuleClass\ItemTypeManager.cs" />
+    <Compile Include="ModuleClass\Language.cs" />
+    <Compile Include="ModuleClass\LanguageManager.cs" />
+    <Compile Include="ModuleClass\MaterialNumRange.cs" />
+    <Compile Include="ModuleClass\MaterialNumRangeManager.cs" />
+    <Compile Include="ModuleClass\MMPostingPeriod.cs" />
+    <Compile Include="ModuleClass\MMPostingPeriodManager.cs" />
+    <Compile Include="ModuleClass\ModulePage.cs" />
+    <Compile Include="ModuleClass\ModulePageList.cs" />
+    <Compile Include="ModuleClass\ModulePageManager.cs" />
+    <Compile Include="ModuleClass\NumRangeMaster.cs" />
+    <Compile Include="ModuleClass\NumRangeMasterManager.cs" />
+    <Compile Include="ModuleClass\OrderReason.cs" />
+    <Compile Include="ModuleClass\OrderReasonManager.cs" />
+    <Compile Include="ModuleClass\PartnerGMDocNumRange.cs" />
+    <Compile Include="ModuleClass\PartnerGMDocNumRangeManager.cs" />
+    <Compile Include="ModuleClass\PartnerNumRange.cs" />
+    <Compile Include="ModuleClass\PartnerNumRangeManager.cs" />
+    <Compile Include="ModuleClass\PaymentTerms.cs" />
+    <Compile Include="ModuleClass\PaymentTermsManager.cs" />
+    <Compile Include="ModuleClass\PurchaseOrderNumRange.cs" />
+    <Compile Include="ModuleClass\PurchaseOrderNumRangeManager.cs" />
+    <Compile Include="ModuleClass\RepairCallNumRange.cs" />
+    <Compile Include="ModuleClass\RepairCallNumRangeManager.cs" />
+    <Compile Include="ModuleClass\RepairProcessNumRange.cs" />
+    <Compile Include="ModuleClass\RepairProcessNumRangeManager.cs" />
+    <Compile Include="ModuleClass\ReplacementOrderNumRange.cs" />
+    <Compile Include="ModuleClass\ReplacementOrderNumRangeManager.cs" />
+    <Compile Include="ModuleClass\RoleDetail.cs" />
+    <Compile Include="ModuleClass\RoleDetailManager.cs" />
+    <Compile Include="ModuleClass\RoleMaster.cs" />
+    <Compile Include="ModuleClass\RoleMasterManager.cs" />
+    <Compile Include="ModuleClass\SalesOrderNumRange.cs" />
+    <Compile Include="ModuleClass\SalesOrderNumRangeManager.cs" />
+    <Compile Include="ModuleClass\State.cs" />
+    <Compile Include="ModuleClass\StateManager.cs" />
+    <Compile Include="ModuleClass\StockIndicatores.cs" />
+    <Compile Include="ModuleClass\StockIndicatoresManager.cs" />
+    <Compile Include="ModuleClass\TransportZone.cs" />
+    <Compile Include="ModuleClass\TransportZoneManager.cs" />
+    <Compile Include="ModuleClass\TypeOfReceipient.cs" />
+    <Compile Include="ModuleClass\TypeOfReceipientManager.cs" />
+    <Compile Include="ModuleClass\UOMMaster.cs" />
+    <Compile Include="ModuleClass\UOMMasterManager.cs" />
+    <Compile Include="ModuleClass\UserLogin.cs" />
+    <Compile Include="ModuleClass\UserLoginManager.cs" />
+    <Compile Include="ModuleClass\UserMaster.cs" />
+    <Compile Include="ModuleClass\UserMasterManager.cs" />
+    <Compile Include="ModuleClass\UserRole.cs" />
+    <Compile Include="ModuleClass\UserRoleList.cs" />
+    <Compile Include="ModuleClass\UserRoleManager.cs" />
+    <Compile Include="ModuleClass\User_Role_Details.cs" />
+    <Compile Include="ModuleClass\User_Role_DetailsManager.cs" />
+    <Compile Include="GlobalFunction.cs" />
+    <Compile Include="ModuleClass\VendorNumRange.cs" />
+    <Compile Include="ModuleClass\VendorNumRangeManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
