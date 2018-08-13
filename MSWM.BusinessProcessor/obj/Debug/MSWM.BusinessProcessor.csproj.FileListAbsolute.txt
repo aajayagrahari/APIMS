@@ -1,0 +1,11 @@
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\bin\Debug\MSWM.BusinessProcessor.dll
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\bin\Debug\MSWM.BusinessProcessor.pdb
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\obj\Debug\MSWM.BusinessProcessor.csproj.CoreCompileInputs.cache
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\obj\Debug\MSWM.BusinessProcessor.dll
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\obj\Debug\MSWM.BusinessProcessor.pdb
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\obj\Debug\MSWM.BusinessProcessor.csprojAssemblyReference.cache
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\bin\Debug\MSWM.Common.dll
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\bin\Debug\MSWM.Data.dll
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\bin\Debug\MSWM.Common.pdb
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\bin\Debug\MSWM.Data.pdb
+D:\MSWM\MSWM_API\MSWM.BusinessProcessor\obj\Debug\MSWM.BusinessProcessor.csproj.CopyComplete

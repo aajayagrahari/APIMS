@@ -1,0 +1,6 @@
+D:\MSWM\MSWM_API\MSWM.Data\bin\Debug\MSWM.Data.dll
+D:\MSWM\MSWM_API\MSWM.Data\bin\Debug\MSWM.Data.pdb
+D:\MSWM\MSWM_API\MSWM.Data\obj\Debug\MSWM.Data.csproj.CoreCompileInputs.cache
+D:\MSWM\MSWM_API\MSWM.Data\obj\Debug\MSWM.Data.dll
+D:\MSWM\MSWM_API\MSWM.Data\obj\Debug\MSWM.Data.pdb
+D:\MSWM\MSWM_API\MSWM.Data\obj\Debug\MSWM.Data.csprojAssemblyReference.cache
