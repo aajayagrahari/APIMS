@@ -1,0 +1,15 @@
+D:\Anuj\WF\DLL\HRMS_Connection\HRMS_Connection\obj\Debug\ResolveAssemblyReference.cache
+D:\Anuj\WF\DLL\HRMS_Connection\HRMS_Connection\bin\Debug\HRMS_Connection.dll
+D:\Anuj\WF\DLL\HRMS_Connection\HRMS_Connection\bin\Debug\HRMS_Connection.pdb
+D:\Anuj\WF\DLL\HRMS_Connection\HRMS_Connection\obj\Debug\HRMS_Connection.dll
+D:\Anuj\WF\DLL\HRMS_Connection\HRMS_Connection\obj\Debug\HRMS_Connection.pdb
+E:\HRMS_16September\DLL\HRMS_Connection\HRMS_Connection\bin\Debug\HRMS_Connection.dll
+E:\HRMS_16September\DLL\HRMS_Connection\HRMS_Connection\bin\Debug\HRMS_Connection.pdb
+E:\HRMS_16September\DLL\HRMS_Connection\HRMS_Connection\obj\Debug\ResolveAssemblyReference.cache
+E:\HRMS_16September\DLL\HRMS_Connection\HRMS_Connection\obj\Debug\HRMS_Connection.dll
+E:\HRMS_16September\DLL\HRMS_Connection\HRMS_Connection\obj\Debug\HRMS_Connection.pdb
+D:\HRMS\18_Nov_HRMS\DLL\HRMS_Connection\HRMS_Connection\bin\Debug\HRMS_Connection.dll
+D:\HRMS\18_Nov_HRMS\DLL\HRMS_Connection\HRMS_Connection\bin\Debug\HRMS_Connection.pdb
+D:\HRMS\18_Nov_HRMS\DLL\HRMS_Connection\HRMS_Connection\obj\Debug\ResolveAssemblyReference.cache
+D:\HRMS\18_Nov_HRMS\DLL\HRMS_Connection\HRMS_Connection\obj\Debug\HRMS_Connection.dll
+D:\HRMS\18_Nov_HRMS\DLL\HRMS_Connection\HRMS_Connection\obj\Debug\HRMS_Connection.pdb
